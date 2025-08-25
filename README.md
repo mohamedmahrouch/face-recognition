@@ -3,7 +3,9 @@
 Ce projet implémente un système de reconnaissance faciale utilisant des réseaux de neurones convolutifs (CNN) avec une interface web pour faciliter son utilisation.
 
 ## Documentation
-<iframe src="../rapport_ai_mahrouch.pdf" width="100%" height="600px"></iframe>
+
+[📄 Lire le rapport directement](https://github.com/USERNAME/REPO/blob/main/rapport_ai_mahrouch.pdf)
+
 
 
 
