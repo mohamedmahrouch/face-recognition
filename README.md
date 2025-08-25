@@ -2,13 +2,11 @@
 
 Ce projet implémente un système de reconnaissance faciale utilisant des réseaux de neurones convolutifs (CNN) avec une interface web pour faciliter son utilisation.
 
-## Documentation Détaillée
+## Documentation
 
-Une documentation détaillée du projet est disponible dans le fichier [rapport_ai_mahrouch.pdf](../rapport_ai_mahrouch.pdf). Ce rapport contient :
-- Une analyse approfondie de l'architecture du modèle
-- Les détails de l'implémentation
-- Les résultats des tests et validations
-- Les graphiques de performance (courbes d'apprentissage, matrices de confusion)
+<embed src="rapport_ai_mahrouch.pdf" type="application/pdf" width="100%" height="600px" />
+
+
 
 ## Technologies Utilisées
 
