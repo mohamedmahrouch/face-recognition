@@ -2,6 +2,14 @@
 
 Ce projet implémente un système de reconnaissance faciale utilisant des réseaux de neurones convolutifs (CNN) avec une interface web pour faciliter son utilisation.
 
+## Documentation Détaillée
+
+Une documentation détaillée du projet est disponible dans le fichier [rapport_ai_mahrouch.pdf](../rapport_ai_mahrouch.pdf). Ce rapport contient :
+- Une analyse approfondie de l'architecture du modèle
+- Les détails de l'implémentation
+- Les résultats des tests et validations
+- Les graphiques de performance (courbes d'apprentissage, matrices de confusion)
+
 ## Technologies Utilisées
 
 - Python
@@ -64,6 +72,15 @@ Le modèle a démontré de bonnes performances avec :
 - Une robustesse face à différentes conditions d'éclairage
 - Une bonne capacité de généralisation
 
+Les résultats détaillés sont disponibles dans le dossier `les résutats/` et incluent :
+- Accuracy.png : Courbe d'apprentissage montrant l'évolution de la précision
+- Loss.png : Courbe d'apprentissage montrant l'évolution de la perte
+- matrice de confusion.png : Matrice de confusion pour l'évaluation du modèle
+
 ## Contributeur
 
 - Mohamed Mahrouch
+
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
