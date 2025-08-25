@@ -4,7 +4,8 @@ Ce projet implémente un système de reconnaissance faciale utilisant des résea
 
 ## Documentation
 
-[📄 Lire le rapport directement](https://github.com/USERNAME/REPO/blob/main/rapport_ai_mahrouch.pdf)
+[📄 Lire le rapport AI Mahrouch](https://github.com/mohamedmahrouch/face-recognition/blob/main/rapport_ai_mahrouch.pdf)
+
 
 
 
