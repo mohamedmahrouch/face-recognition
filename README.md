@@ -4,7 +4,8 @@ Ce projet implémente un système de reconnaissance faciale utilisant des résea
 
 ## Documentation
 
-<embed src="../rapport_ai_mahrouch.pdf" type="application/pdf" width="100%" height="600px" />
+[📄 Rapport AI Mahrouch](../rapport_ai_mahrouch.pdf)
+
 
 
 
