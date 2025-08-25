@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconnaissance Faciale</title>
+    <link rel="stylesheet" href="static/css/style.css">
+
+
+</head>
+<body>
+
+<div class="main-container">
+    <h1>🚀 Reconnaissance Faciale IA</h1>
+    <p class="subtitle">Technologie avancée de reconnaissance faciale en temps réel</p>
+    
+    <div class="content-grid">
+        <!-- Section Vidéo en Direct -->
+        <div class="card">
+            <h2>🎥 Flux Vidéo en Direct</h2>
+            <div class="video-container">
+                <img class="video-feed" src="{{ url_for('video_feed') }}" alt="Flux vidéo">
+                <div class="video-status">● EN DIRECT</div>
+            </div>
+        </div>
+
+        <!-- Section Historique -->
+        <div class="card">
+            <h2>📜 Historique des Reconnaissances</h2>
+            <ul id="history-list">
+                <li>
+                    <div>
+                        <div class="name">Chargement des données...</div>
+                        <div class="confidence">Veuillez patienter</div>
+                    </div>
+                    <span class="timestamp">--:--</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Section Upload d'Image -->
+        <div class="card">
+            <h2>🖼️ Analyser une Image</h2>
+            <form id="upload-form" class="upload-form">
+                <div class="file-input-wrapper">
+                    <input type="file" name="file" id="file-input" accept="image/jpeg, image/png">
+                    <div class="file-input-display" id="file-display">
+                        <div>
+                            <div style="font-size: 2rem; margin-bottom: 10px;">📁</div>
+                            <div>Cliquez ou glissez une image ici</div>
+                            <div style="font-size: 0.9rem; opacity: 0.7; margin-top: 5px;">JPG, PNG acceptés</div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn">
+                    <span>🔍 Analyser l'Image</span>
+                </button>
+            </form>
+            <div id="result-container" class="result-container">
+                <div id="loader" class="loader"></div>
+                <div id="image-result"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
